@@ -1,6 +1,0 @@
-C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\Workshop 1\OOP-Workshops\WS02\part 1\Project1\Debug\Project1.exe
-C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\Workshop 1\OOP-Workshops\WS02\part 1\Project1\Debug\Project1.pdb
-C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Workshops\WS02\part 1\Project1\Debug\Project1.exe
-C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Workshops\WS02\part 1\Project1\Debug\Project1.pdb
-C:\Users\korea\Desktop\C++\C++ - 01\Debug\Project1.exe
-C:\Users\korea\Desktop\C++\C++ - 01\Debug\Project1.pdb
