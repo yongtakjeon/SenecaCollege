@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Table</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/table.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2>
+
+		<!--1-->
+		<h4>My College Time Table</h4>
+		<div id="course">
+		<table style="border:1px solid;">
+			<caption>Time table</caption>
+			<tr>
+				<th>1) program</th>
+				<th>2) course enrolled</th>
+				<th>3) times of classes</th>
+			</tr>
+			<tr>
+				<td rowspan=4>CPD</td>
+				<td>&nbsp;&nbsp;OOP244</td>
+				<td>&nbsp;&nbsp;2</td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;WEB222</td>
+				<td>&nbsp;&nbsp;2</td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;DCF255</td>
+				<td>&nbsp;&nbsp;1</td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;DBS211</td>
+				<td>&nbsp;&nbsp;2</td>
+			</tr>
+		</table>
+		</div>
+<br>
+<h4>Let me introduce myself</h4>
+	<div id="introduce">
+		<table style="border:1px solid;">
+			<thead>
+				<tr>
+					<th colspan=2>This is about me.</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Name</th>
+					<td>Yongtak Jun</td>
+				</tr>
+				<tr>
+					<th>Favourite colour</th>
+					<td>Black, Red</td>
+				</tr>
+				<tr>
+					<th>Hobby</th>
+					<td>Listening Music</td>
+				</tr>
+				<tr>
+					<th>Favourite Food</th>
+					<td>Korean BBQ</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan=2>Thanks for reading! :)</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	
+	<!--3-->
+	<h4>List of people</h4>
+
+	<div id="list">
+	
+	<!--4-->
+	<script>
+		window.onload=function()
+		{
+			var table = document.createElement("table");
+			table.setAttribute("border","1");
+			var tr = document.createElement("tr");
+			var th = document.createElement("th");
+			th.innerHTML="First Name";
+			tr.appendChild(th);
+			var th = document.createElement("th");
+			th.innerHTML="Last Name";
+			tr.appendChild(th);
+			var th = document.createElement("th");
+			th.innerHTML="Age";
+			tr.appendChild(th);
+			var th = document.createElement("th");
+			th.innerHTML="Email";
+			tr.appendChild(th);
+
+			table.appendChild(tr);
+			
+			for(var i = 0;i<users.length;i++)
+			{
+				var tr = document.createElement("tr");
+				var td = document.createElement("td");
+				td.appendChild(document.createTextNode(users[i].first_name));
+				tr.appendChild(td);
+				var td = document.createElement("td");
+				td.appendChild(document.createTextNode(users[i].last_name));
+				tr.appendChild(td);
+				var td = document.createElement("td");
+				td.appendChild(document.createTextNode(users[i].age));
+				tr.appendChild(td);
+				var td = document.createElement("td");
+				var a = document.createElement("a");
+				a.setAttribute("href","mailto:'"+users[i].email+"'");
+				a.appendChild(document.createTextNode(users[i].email));
+				td.appendChild(a);
+				tr.appendChild(td);
+
+				table.appendChild(tr);
+			}
+
+			document.querySelector("#list").appendChild(table);
+
+		}
+	</script>
+	</div>
+	
+	<!-- End your code here  -->
+	
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; Yongtak Jun
+	  </div>
+	</footer>
+</body>
+</html>	  
