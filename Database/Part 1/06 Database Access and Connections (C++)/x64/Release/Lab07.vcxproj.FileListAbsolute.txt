@@ -1,0 +1,3 @@
+C:\Users\korea\Desktop\Seneca\Seneca 2학기\DBS211\Lab07\x64\Release\Lab07.exe
+C:\Users\korea\Desktop\Database\Part 1\Lab07\x64\Release\Final Project.exe
+C:\Users\korea\Desktop\Database\Part 1\06 Database Access and Connections (C++)\x64\Release\Final Project.exe
