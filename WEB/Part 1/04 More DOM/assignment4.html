@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WEB222</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="js/a4-country-data.js"></script>
+  <script src="js/myscript.js"></script>
+  <style>
+    thead {background-color:lightblue;}
+	  tbody {background-color:lightyellow;}
+	  tfoot {background-color:lightgreen;}
+    table {border: 2px outset darkblue; border-collapse: collapse;}
+    th, td {border: 2px inset darkgreen;}
+    .main {padding: 0 3px;}
+   </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>WEB222 Assignment 4 - DOM Manipulation</h1>
+    </header>
+    <nav>
+      <ul>	
+        <li><a href="assignment4.html" id="menu_1">Country List</a></li>
+        <li><a href="#">By Population</a>
+          <ul>
+            <li id="menu_21"><a href="#">&gt; 100,000,000</a></li>
+            <li id="menu_22"><a href="#">1 ~ 2 million</a></li>
+          </ul>
+        </li>
+        <li><a href="#">By Area &amp; Continent</a>
+          <ul>
+            <li id="menu_31"><a href="#"> 1 million Km<sup>2</sup>, Americas</a></li>
+            <li id="menu_32"><a href="#">All size, Aisa</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Language</a>
+          <ul>
+            <li id="menu_41"><a href="#">English</a></li>
+            <li id="menu_42"><a href="#">Arabic</a></li>
+            <li id="menu_43"><a href="#">中文 (Chinese)</a></li>
+            <li id="menu_44"><a href="#">French</a></li>
+            <li id="menu_45"><a href="#">Hindi</a></li>
+            <li id="menu_46"><a href="#">Korean</a></li>
+            <li id="menu_47"><a href="#">Japanese</a></li>
+            <li id="menu_48"><a href="#">Russian</a></li>
+          </ul>
+        </li>
+        <li><a href="honesty.html">Honesty</a></li>
+      </ul>
+    </nav>
+      
+    <section class=main>
+    <!-- Start your code here -->
+        <!--  code for the web page  -->
+    <h4 id="subtitle">List of Countries and Dependencies</h4>
+    <table id="outputTable">
+      <thead>
+          <tr>
+            <th>Flag</th>
+            <th>Code</th>
+            <th id="countyrName">Country/Dep. Name</th>             
+            <th>Continent</th>
+            <th>Area (Km<sup>2</sup>)</th>
+            <th>Population</th>
+            <th>Capital</th>
+          </tr>    
+      </thead>
+    </table>
+
+    <!-- End your code here - 2177 -->
+    </section>
+    <footer>
+      <p class="center">&copy; 2020 Yongtak Jun</p> 
+    </footer>
+  </div>
+</body>
+</html>
