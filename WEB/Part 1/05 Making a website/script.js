@@ -1,5 +1,6 @@
 /* Add any JavaScript you need to this file. */
-/*Yongtak Jun, 137350195, yjun4@myseneca.ca*/
+/*Yongtak Jun, yjun4@myseneca.ca*/
+
 window.onload = function () {
   function home() {
     document.querySelector('#n').setAttribute('style', 'display:block;');
