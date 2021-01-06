@@ -1,0 +1,6 @@
+C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Project-master\MS6\Debug\MS6.exe
+C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Project-master\MS6\Debug\MS6.pdb
+C:\Users\korea\Desktop\C++ Language\Part 1\MS6\Debug\MS6.exe
+C:\Users\korea\Desktop\C++ Language\Part 1\MS6\Debug\MS6.pdb
+C:\Users\korea\Desktop\C++ Language\Part 1\09 FINAL PROJECT\Debug\MS6.exe
+C:\Users\korea\Desktop\C++ Language\Part 1\09 FINAL PROJECT\Debug\MS6.pdb
