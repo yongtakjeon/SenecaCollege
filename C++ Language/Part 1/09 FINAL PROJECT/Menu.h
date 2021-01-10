@@ -32,7 +32,7 @@ namespace sdds
 	{
 		char* m_value;
 
-		friend class Menu;
+		friend class Menu; //This lets Menu class access to Menu Item's private member.
 		MenuItem();
 		MenuItem(const char*value);
 		MenuItem(const MenuItem& copy) = delete;
@@ -55,14 +55,14 @@ namespace sdds
 		Menu(const char * title, int indentation = 0);
 		Menu(const Menu& copy);
 		Menu& operator=(const Menu& copy);
-		operator bool()const;
+		operator bool()const; //conversion operator which allows this class to be used in place of an bool type
 		bool isEmpty() const;
 		std::ostream& displayMenu(std::ostream& os = std::cout) const;
 		Menu& operator=(const char* title);
 		void add(const char* value);  //adding MenuItem
-		Menu& operator<<(const char* value);
+		Menu& operator<<(const char* value); //adding MenuItem using 'add' method
 		int run() const;  //getting selection number
-		operator int() const;
+		operator int() const; //conversion operator which allows this class to be used in place of an int type
 		~Menu();
 		//
 		void setMenu(const char* title, const int indentation = 0);

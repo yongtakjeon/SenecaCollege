@@ -34,7 +34,7 @@ namespace sdds
 		Menu mainMenu;
 		Menu subMenu1;
 		int m_numOfSpots;
-		Vehicle* m_parkingSpots[maxParkingSpots]; //address will be assigned to each element
+		Vehicle* m_parkingSpots[maxParkingSpots]; //An array of pointers. An address will be assigned to each elements.
 		int m_numOfParked; //always less than numOfSpots
 
 		

@@ -48,7 +48,7 @@ namespace sdds
 
 			cout << "Carwash while parked? (Y)es/(N)o: "; //receiving the m_carWash value
 			char yesNo[3];
-			istr.get(yesNo, 3);
+			istr.get(yesNo, 3); //newline delimiter - accepts up to 2 chars and adds a null byte, and leave the delimiter in input buffer (not being removed)
 			
 			while (strlen(yesNo) == 2 || 
 				(yesNo[0] != 'y' && yesNo[0] != 'Y' && yesNo[0] != 'n' && yesNo[0] != 'N'))

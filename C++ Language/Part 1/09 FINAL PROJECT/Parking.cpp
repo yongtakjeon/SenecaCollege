@@ -126,8 +126,8 @@ namespace sdds
 
 				while (m_numOfParked < m_numOfSpots && loading && !fin.eof())
 				{
-					fin.get(vehicleType,2);
-					fin.ignore();
+					fin.get(vehicleType,2); //The delimiter is remaining.
+					fin.ignore(); //discarding the delimiter
 
 					if (vehicleType[0] == 'M')
 					{

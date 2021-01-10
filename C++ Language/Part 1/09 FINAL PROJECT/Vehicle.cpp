@@ -19,7 +19,7 @@ provided to complete this program.
 -----------------------------------------------------------*/
 
 #define _CRT_SECURE_NO_WARNINGS
-#include <cstring>
+#include <cstring> //for strlen, strcpy
 #include "Vehicle.h"
 
 using namespace std;
@@ -109,7 +109,7 @@ namespace sdds
 			m_parkingSpotNumber = parkingSpotNumber;
 		}
 	}
-	bool Vehicle::operator==(const char* licensePlate) const
+	bool Vehicle::operator==(const char* licensePlate) const //check if license plate is identical
 	{
 		bool value;
 		if (m_licensePlate[0] == '\0' || licensePlate == nullptr || licensePlate[0] == '\0')
@@ -122,7 +122,7 @@ namespace sdds
 		}
 		return value;
 	}
-	bool Vehicle::operator==(const Vehicle& anotherVehicle) const
+	bool Vehicle::operator==(const Vehicle& anotherVehicle) const //check if license plate is identical
 	{
 		bool value;
 		if (m_licensePlate[0] == '\0' || anotherVehicle.m_licensePlate[0] == '\0')
@@ -140,15 +140,15 @@ namespace sdds
 		if (isCsv()) //if the Vehicle is set to Comma Separated mode
 		{
 			istr >> m_parkingSpotNumber;
-			istr.ignore();
+			istr.ignore(); //for discarding '\n' from input buffer
 
 			char tempPlate[9];
-			istr.getline(tempPlate, 9, ',');
+			istr.getline(tempPlate, 9, ','); // ',' delimiter - accepts up to 8 chars and adds a null byte
 			strToUpper(tempPlate);
 			strcpy(m_licensePlate, tempPlate);
 			
 			char tempMakeModel[61];
-			istr.getline(tempMakeModel, 61, ',');
+			istr.getline(tempMakeModel, 61, ','); // ',' delimiter - accepts up to 60 chars and adds a null byte
 			if (m_makeAndModel)
 			{
 				delete[] m_makeAndModel;
@@ -163,7 +163,7 @@ namespace sdds
 
 			cout << "Enter Licence Plate Number: ";   //receiving Licence Plate Number
 			char tempPlate[10];
-			istr.get(tempPlate, 10);
+			istr.get(tempPlate, 10); // newline delimiter - accepts up to 9 chars and adds a null byte, and leave the delimiter in input buffer (not being removed)
 			while (strlen(tempPlate) < 2 || strlen(tempPlate) == 9)
 			{
 				cout << "Invalid Licence Plate, try again: ";

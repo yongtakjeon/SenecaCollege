@@ -20,8 +20,8 @@ provided to complete this program.
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
-#include<cstring>
-#include<cctype>
+#include<cstring> //for strlen
+#include<cctype> //for tolower, toupper
 #include"Utils.h"
 
 using namespace std;
@@ -33,11 +33,11 @@ namespace sdds
         int num;
 
         cin >> num;
-        while (!cin)
+        while (!cin) //if there is an error about input using cin, operator "!" returns true.
         {
             cout << "Invalid Integer, try again: ";
-            cin.clear();
-            cin.ignore(1000, '\n');
+            cin.clear(); //initializing the flag
+            cin.ignore(1000, '\n'); //clearing input buffer including '\n'
             cin >> num;
         }
         cin.ignore(1000, '\n'); //clearing the input buffer to execute the pause() properly.

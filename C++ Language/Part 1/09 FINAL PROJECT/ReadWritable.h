@@ -32,7 +32,7 @@ namespace sdds
 	public:
 		ReadWritable();
 		virtual ~ReadWritable();
-		bool isCsv()const;
+		bool isCsv()const; //check if it is comma seperated
 		void setCsv(bool value);
 		virtual std::istream& read(std::istream& istr = std::cin) = 0;
 		virtual std::ostream& write(std::ostream& ostr = std::cout)const = 0;

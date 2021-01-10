@@ -20,8 +20,8 @@ provided to complete this program.
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
-#include <iomanip>
-#include <cstring>
+#include <iomanip> //for setw
+#include <cstring> //for strlen, strcpy
 #include "Menu.h"
 
 using namespace std;
@@ -58,14 +58,14 @@ namespace sdds
 		}
 		else
 		{
-			if (m_value)
+			if (m_value) //if m_value is not nullptr
 			{
 				delete[] m_value;
 			}
 
 			m_value = nullptr;
 			m_value = new char[strlen(value)+1];
-			strcpy(m_value, value);
+			strcpy(m_value, value); //deep copy
 		}
 	}
 	void MenuItem::setMenuItemEmpty()
@@ -102,7 +102,7 @@ namespace sdds
 		}
 		else
 		{
-			if (m_title)
+			if (m_title) //if m_title is not nullptr
 			{
 				delete[] m_title;
 			}
@@ -162,7 +162,7 @@ namespace sdds
 		}
 		return *this;
 	}
-	Menu::operator bool()const
+	Menu::operator bool()const //conversion operator which allows this class to be used in place of an bool type
 	{
 		return (m_title != nullptr && m_title[0] != '\0' &&  m_indentation != -1);
 	}
@@ -281,7 +281,7 @@ namespace sdds
 		}
 		return selection;
 	}
-	Menu::operator int() const
+	Menu::operator int() const //conversion operator which allows this class to be used in place of an int type
 	{
 		return run();
 	}
