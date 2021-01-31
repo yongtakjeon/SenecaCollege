@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS01\Project1\Debug\Project1.exe
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS01\Project1\Debug\Project1.pdb
+C:\Users\user\Desktop\Seneca\OOP345\Github\01 Across Translation Units\Debug\Project1.exe
+C:\Users\user\Desktop\Seneca\OOP345\Github\01 Across Translation Units\Debug\Project1.pdb
