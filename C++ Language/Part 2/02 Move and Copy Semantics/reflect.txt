@@ -1,0 +1,21 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: Jan/30/2021
+
+
+
+This week, we have learned about move semantics. We have learned about copy semantics last 
+semester, but there is a weakness about copy semantics. Since it does deep copy, if it has 
+to copy a large amount of data, it takes much more time than shallow copy, so if the object is not 
+used anymore after copied, using move semantics would be much more efficient as move semantics 
+do shallow copy. However, the problem about shallow copy is it could generate the run-time error 
+since it could release the memory which is allocated dynamically twice in the destructor. That is why 
+we have to assign ¡®nullptr¡¯ to already copied pointer variable like below code:
+
+bunchOfStrings = src.bunchOfStrings;
+src.bunchOfStrings = nullptr;
+
+
+Furthermore, while doing this workshop, we had chance do deal with measuring the time using 
+chrono library. It was the first time I have ever seen this, so it was a bit confused at first, but soon I found
+it is interesting and it could be useful when we need to measure the time.

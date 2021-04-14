@@ -1,0 +1,23 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: July/06/2020
+
+
+
+
+While I am doing this assignment, I have learned about shallow copy and deep copy. Furthermore, 
+I have learned how to define the copy constructor and copy assignment operator. Basically, compiler 
+will perform both even though we do not define them. However, it will be shallow copy. Therefore, 
+we could make the custom definition of a copy constructor and a copy assignment operator by 
+ourselves to make deep copy. Codes of copy constructor and copy assignment operator are pretty 
+much similar. The difference is since copy assignment operator would be executed after the variable 
+has been created, we have to check if there is an already allocated dynamic memory, and if so, we 
+have to deallocate it. Moreover, we also have to check if it is a self-assignment.
+
+Furthermore, I have learned how to overload extraction and insertion operators associating our own 
+classes with the iostream classes. Basically, the role of extraction operator is similar with display() 
+function, and the role of insertion operator would be similar with set() function. First, since we 
+cannot modify the iostream classes directly, these overloaded operators are supposed to be defined 
+globally. Also, the reason why the return types of overloaded operators are modifiable reference to 
+the stream object is to enable them cascading.
+

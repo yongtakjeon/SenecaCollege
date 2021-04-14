@@ -1,0 +1,25 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: June/28/2020
+
+
+While doing workshop 5, I had chance to deal with overloaded operator. I could define the 
+overloaded operator like function, and use it for code to be looked more straightforward. While 
+doing this workshop, I had to make ‘<’ overloaded operator, and it is supposed to work whether 
+the total output power of the ship is in the left side or right side of the operator ‘<’. For that, I had 
+to define twice for each cases, and the thing is when I define overloaded operator as a member of 
+the class, the class has to be located in the left side of the operator when operator is used. Therefore, 
+for the case which when the total output power of the ship is in the right side of the operator ‘<’, 
+I have to define this overloaded operator as a global function.
+
+Also, in this week, we have learned about ‘helper function’. It is the function which does not need 
+to access the private member of the class directly. In addition, there is a helper function who has 
+friendship with the class. In this case, this helper function is able to access the private member of 
+the class, but it is still not owned by the class, so I used this when I make overloaded operator for 
+the case which when the total output power of the ship is in the right side of the operator ‘<’.
+
+Furthermore, I had chance to use ‘explicit’ keyword doing this workshop. Basically, there are two 
+types of cast. One is explicit cast, and the other is implicit cast, and the implicit cast is the conversion 
+which compiler does by itself automatically when it thinks it is needed. Therefore, sometimes it 
+could cause ambiguities of code. To prevent the code from that kind of situation, we could use 
+‘explicit’ keyword to prohibit implicit conversion.

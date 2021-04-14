@@ -104,3 +104,61 @@ int main()
 
 	return 0;
 }
+
+
+/* OUTPUT EXAMPLE:
+---=== IPC Temperature Calculator V2.0 ===---
+Please enter the number of days, between 3 and 10, inclusive: 11
+
+Invalid entry, please enter a number between 3 and 10, inclusive: 5
+
+Day 1 - High: 6
+Day 1 - Low: -2
+Day 2 - High: 9
+Day 2 - Low: -1
+Day 3 - High: 7
+Day 3 - Low: -3
+Day 4 - High: 8
+Day 4 - Low: -9
+Day 5 - High: 5
+Day 5 - Low: -8
+
+Day Hi Low
+1	6	-2
+2	9	-1
+3	7	-3
+4	8	-9
+5	5	-8
+
+The highest temperature was 9, on day 2
+The lowest temperature was -9, on day 4
+
+Enter a number between 1 and 5 to see the average temperature for the entered number of days, enter a negative number to exit: 6
+
+Invalid entry, please enter a number between 1 and 5, inclusive: 7
+
+Invalid entry, please enter a number between 1 and 5, inclusive: 3
+
+The average temperature up to day 3 is: 2.67
+
+Enter a number between 1 and 5 to see the average temperature for the entered number of days, enter a negative number to exit: 0
+
+Invalid entry, please enter a number between 1 and 5, inclusive: 0
+
+Invalid entry, please enter a number between 1 and 5, inclusive: 1
+
+The average temperature up to day 1 is: 2.00
+
+Enter a number between 1 and 5 to see the average temperature for the entered number of days, enter a negative number to exit: 2
+
+The average temperature up to day 2 is: 3.00
+
+Enter a number between 1 and 5 to see the average temperature for the entered number of days, enter a negative number to exit: 5
+
+The average temperature up to day 5 is: 1.20
+
+Enter a number between 1 and 5 to see the average temperature for the entered number of days, enter a negative number to exit: -8
+
+Goodbye!
+
+*/

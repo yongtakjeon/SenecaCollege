@@ -1,0 +1,27 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: Feb/21/2021
+
+
+
+This week, we have learned about function, especially about function object and lambda expression. 
+Basically, lambda expression is pretty much same with function object. Lambda expression is 
+unnamed function object which is able to capture variables in scope, but it is shorthand for function 
+object, so depends on the situation, it could be more efficient than function object to use.
+
+Moreover, we have learned way of error handling as well. To handle the error, we could use try, 
+catch, throw keyword. While I am doing this workshop, I had a chance to use those keywords. When 
+I code overloaded constructor of SpellChecker class, I had to use throw keyword for the case the 
+file could not be read properly, so I throw a string for the exception. If I didn¡¯t use throw keyword, I 
+could just print out some error message to the console, but using try, catch, throw makes code looks 
+more straightforward, so I would use error handling method for this kind of cases.
+
+Also, in the workshop, Movie and Book class have pretty much same logic. Therefore, it would have 
+been more efficient to use template for these classes creating template class so that it could prevent 
+our code from being duplicated.
+
+Furthermore, I had to make custom constructor for both Movie and Book classes. When we make 
+overloaded constructor, default constructor has to be defined. That is because if we only define 
+overloaded constructor without defining default constructor, when we try to make object without 
+sending any argument, it will throw an error, so it would be good practice to define default 
+constructor when we use custom constructor.

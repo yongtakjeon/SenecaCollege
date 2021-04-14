@@ -1,0 +1,23 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: June/20/2020
+
+
+
+While I am doing this assignment, I had chance to deal with setting the constructor and destructor. 
+Constructor is a special member function which is executed at creation time of its class, and the 
+destructor is also special member function which is executed right before the class is out of scope. 
+Usually, constructor is divided into ‘default constructor’ and ‘overloaded constructor’. When there is 
+no parameter, default constructor will be executed, and when there are parameters, the overloaded 
+constructor will be executed. Basically, default constructor is used for setting safe empty state while 
+overloaded constructor is used for setting the class’ member’s value with parameter sent. 
+Furthermore, destructor is used for deallocating the dynamic memory, so if there is no allocated 
+dynamic memory, there is no need to use destructor.
+
+When we declare the member function, using ‘const’, we can prevent the values of the object’s 
+member from changing. Therefore, if we will not change the values of member, it is always good to 
+use ‘const’ such as when we use query functions. While I am doing this assignment, on the contrary, 
+there was a situation which I had to remove ‘const’ because of its function. I had to change the 
+value of ‘m_power’ in the ‘fight’ function, but since there was a ‘const’, I could not change its value, 
+so that I had to remove ‘const’. Also, to change the value of ‘other.m_power’, I had to remove the 
+'const' which was in the parameter.

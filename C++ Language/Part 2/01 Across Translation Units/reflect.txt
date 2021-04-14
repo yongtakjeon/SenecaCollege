@@ -1,0 +1,24 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: Jan/23/2021
+
+
+This week, we have learned about 'static' and 'extern' keyword. The keyword ¡®static¡¯ makes the 
+variable private to only that file whereas keyword ¡®extern¡¯ brings a variable from another translation 
+unit which refers to external linkage. While I am doing this workshop, I had to declare a global 
+variable named ¡®g_sysClock¡¯, and had to use that in main.cpp file, so I have used ¡®extern¡¯ keyword 
+for that.
+
+Also, we have learned about ¡®argc¡¯, and ¡®argv¡¯ which refer to ¡®argument count¡¯, and ¡®argument vector¡¯ 
+respectively. The number of arguments passed to the program is stored in ¡®argc¡¯, and each argument 
+passed to the program is stored in ¡®argv¡¯. The thing that we have to notice is first element of ¡®argv¡¯ 
+points to the program name not the argument passed.
+
+Furthermore, I had to use a local-to-function variable to count the number of the function called. 
+For that, I have used ¡®static¡¯ keyword to make the variable remain in memory for the lifetime of the 
+program.
+
+In part 2, I had to make the code improved to store the string of ANY length, so that I have used 
+dynamic memory allocation. Moreover, to prevent the code from generating an error, I had to 
+override the copy constructor and copy assignment operator as well.
+

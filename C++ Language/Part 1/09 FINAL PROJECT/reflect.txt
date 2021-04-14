@@ -1,0 +1,28 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: August/07/2020
+
+
+It was a long journey to complete this project. While I am doing this assignment, first, I have learned 
+about the modularity more. I had to create the seven different header file separately. It was the 
+biggest module that I have ever created. Especially, using ‘Utils’ module is optional, so it was good 
+experience to use ‘Utils’ module by myself whenever I felt I needed that.
+
+Also, this project covers the three most prominent concepts of ‘object-oriented programming’ which 
+are encapsulation, inheritance, and polymorphism. While I am building this project, I could learn 
+concepts of each principles specifically. Encapsulation is kind of hiding data in the private section 
+using class so that it can prevent the data from unauthorized access or unexpected change. 
+Inheritance is the relationship between the classes, so derived class inherits all the data member 
+from the base class. Lastly, polymorphism is based on the idea that same name could have many 
+different meanings.
+
+Furthermore, building this project, I guess the trickiest part for me was creating the code for 
+receiving only integer value. For this, I had to use ‘!’ operator, clear(), ignore() methods which was 
+new to me. If I use ‘!’ operator like this, “!cin”, it will check if cin object has error flag or not, so if it 
+has, it returns true, so in my case, I could use this to check if user inputs integer value or not. After 
+this, if the cin’s flag is set to error flag, I had to clear the flag state using cin.clear() method to 
+prompt the user’s input properly again. Also, for clearing the input buffer, I used cin.ignore() method. 
+It was interesting to learn how istream class works.
+
+To conclude, it was really good experience to deal with all of those things, and finally create this 
+program.

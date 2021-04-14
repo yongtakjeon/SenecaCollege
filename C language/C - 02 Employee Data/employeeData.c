@@ -1,3 +1,8 @@
+//==============================================
+// Name:           Yongtak Jun
+// Email:          yjun4@myseneca.ca
+//==============================================
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>

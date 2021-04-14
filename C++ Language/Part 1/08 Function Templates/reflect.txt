@@ -1,0 +1,11 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: July/29/2020
+
+
+While I am doing this assignment, I have learned how to create and use a function template. In the 
+function template, we only define the algorithm, and when we use function template in the main 
+function, complier will generate the real code of the function. When we create function template, 
+we define the identifier in the parameter, and this identifier can be any other data type when we 
+use function template in the main function which means it is a generic type so that it leads a code 
+to make less redundancy.

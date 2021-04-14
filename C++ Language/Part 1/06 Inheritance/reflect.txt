@@ -1,0 +1,27 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: July/14/2020
+
+
+
+While I am doing workshop, I have learned concept of inheritance. Derived class inherits all member 
+of Base class except for constructors, destructors, and the assignment operator. However, there 
+would be a situation which derived class has a function with same identifier with the function which 
+is contained in the base class. In that case, the function of derived class shadows the function of 
+base class. Therefore, to call the function of base class which is shadowed by the function of derived 
+class, we can use ‘scope resolution’ when we code implementation of the function of derived class.
+
+Also, I had to pass the argument to the constructor of base class. In that situation, we have to 
+receive the argument of base class’ constructor with the parameters of derived class’ constructor. 
+Once we receive the all argument through derived class’ constructor, we can pass those arguments 
+to the constructor of base class coding implementation of derived class’ constructor.
+
+Furthermore, while I am doing milestone, I had to create the function which only returns integer 
+value. Figuring out how to do that, I have learned the ‘!’ overloaded operator which returns true if 
+‘cin’ has error flag, false if ‘cin’ has no error flag. Also, once cin is set up error flag, we have to clear 
+the flag in order to make cin operate properly, so I had to use cin.clear() function for that. Moreover, 
+when we store the value in the integer variable, if character value is entered, character value cannot 
+be stored in the integer variable, and it will just remain in the input buffer. Therefore, I had to clear 
+the input buffer otherwise the character value which remains in the input buffer keeps trying to be 
+entered in the integer variable which causes an error. To clear the input buffer, I could use cin.ignore() 
+function.

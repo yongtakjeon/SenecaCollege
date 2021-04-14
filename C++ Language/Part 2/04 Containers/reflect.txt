@@ -1,0 +1,22 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: Feb/14/2021
+
+
+
+This week, we have learned about composition, aggregation and association. Basically, these are the 
+relationship between classes. Before, we have learned about ¡®inheritance¡¯, and these three are less-
+coupled which is weaker relationship than inheritance. Basically, composition is the strongest 
+relationship of the three, and the difference between composition and aggregation is responsibility 
+of copying and destroying its resource. While composition is responsible for copying and destroying 
+its resource, aggregation is not, but still the common thing of two is these two have ¡®has a¡¯ 
+relationship to other class while association does not have ¡®has a¡¯ relationship, and it is weakest 
+relationship of the three.
+
+Since in composition, one class completely owns another class, when one class is created, another 
+class also has to be created. Also, when one class is destructed, another class also has to be 
+destructed, so the class that owns another class has to define another class¡¯ creation and destruction 
+in the constructor and destructor. On the other hand, in aggregation relationship, two classes¡¯ 
+creation and destruction is completely independent. It is just one class could add another class in 
+it, or could delete it, or even if there is no another class in it, it is totally okay since those classes 
+are independent.

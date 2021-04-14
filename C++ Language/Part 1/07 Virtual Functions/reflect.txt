@@ -1,0 +1,27 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: July/21/2020
+
+
+
+This week, I have learned about polymorphism.
+
+While I am doing this workshop, I had to overload insertion operator, and within its implementation, 
+I needed to use display function which is declared as a pure virtual function. Since it is the pure 
+virtual function, I had to create the implementation of each display function of each derived class, 
+and since the virtual keyword is used, the display function of each derived class’s version is called 
+in this source code even though all instances are declared with pointer array of base class. This lets 
+me overload the insertion operator only once.
+
+Also, when I make the Employee class which is base class, I had to declare destructor with virtual 
+keyword. In this case, Employee class does not have dynamic memory allocation. Nevertheless, the 
+reason why it needs destructor with virtual keyword is if the derived class is declared with pointer 
+variable or reference variable of Base class, and if it has dynamic memory allocation, it needs 
+destructor, and in this case, to execute the destructor of derived class, the base class has to have 
+destructor with virtual keyword otherwise the destructor of derived class will be skipped.
+
+Furthermore, while I am doing this assignment, there was a moment that I have to initialize the 
+member of a class which is const int type. Constant and reference attributes have to be assigned 
+when it is declared. That is why it cannot be initialized in the body of a constructor like other regular 
+attributes, so I had to use ‘initializer list’ which initialize the variable at the same time with its 
+declaration. 

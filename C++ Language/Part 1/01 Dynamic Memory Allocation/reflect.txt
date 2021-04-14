@@ -1,0 +1,29 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: June/07/2020
+
+
+While I am doing this assignment, first, I have learned about the thing called ‘overloaded functions’. 
+Unlike C language, in C++, multiple functions can have same identifier as long as they have unique 
+signatures.
+
+Also, I have learned about ‘reference’ as well. It is an alias for a variable or object, and we can use 
+reference in function, so when we use ‘pass-by-reference’ code, it takes the form of ‘&’. When we 
+use pass-by-reference, since it is alias, we can access the original value in the function just like ‘pass-
+by-address’ mechanism, but we do not need to specify ‘*’ to access the value within the function 
+which means we can just treat this as an ordinary variable so that it is more readable. Even when 
+we call the function, we do not need to send the address of variable. We can just send the variable’s 
+name. Therefore, it is more beneficial than ‘pass-by-address’ so that except that when we send the 
+array, ideally it is better to use ‘pass-by-reference’.
+
+Also, I have learned about ‘cin.width(number)’. If we put the number ‘15’ in the number section, the 
+compiler received the value only up to 15 characters, and the characters after that will be disregarded
+so that we do not need to clear the buffer which is more convenient to use compared to C language.
+
+Furthermore, I have learned ‘allocating the dynamic memory’. In C, when we make the memory to 
+store the data, we just put expected biggest number, like this ‘char var[5000];’. However it could 
+cause serious memory wasting if we do not use all of those memory. That’s why we use allocating 
+the dynamic memory. Firstly, most important thing is put the ‘nullptr’ to the pointer variable to 
+prevent it from pointing random address, and then put the allocated memory’s address into pointer 
+variable, and access the address to use those memories. Also, after using dynamic memory and 
+deallocating the memory, it is important to assign the ‘nullptr’ to the pointer variable again.

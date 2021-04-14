@@ -1,0 +1,22 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: Feb/07/2021
+
+
+This week, we have learned about template, and this workshop was really good chance to be used 
+to use template.
+
+First, usually template function or class is created and defined only in the header file.
+Basically, the benefit of using template is that it can be applied in many different types so that it 
+can prevent the code from duplicating similar function or class so that the code can be more concise. 
+In the workshop, the variable ¡®m_value¡¯ is assigned to both integer type and string type. However, 
+since we have used template, we do not need to make multiple classes for integer type and string 
+type separately.
+Therefore, when we use ¡®operator+=()¡¯ which is overloaded in the PairSummable template class, 
+there were two cases which the value is number, and the value is string, so I had to define 
+specialization for when the value is string.
+Furthermore, in the parameter of PairSummable class¡¯s constructor, I have specified default 
+argument for value with initial value using class variable, so we could use one argument constructor, 
+and in that case, value does not have anything. Therefore, I could add something to it from scratch.
+Also, the class variable does not belong to specific object. It is more likely to belong to the class 
+itself, so it is different from normal class member, therefore it has to be defined outside of class.

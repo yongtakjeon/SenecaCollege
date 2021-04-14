@@ -1,0 +1,17 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: June/13/2020
+
+
+
+While I am doing this assignment, I have learned about the ‘class’. We would use ‘structure’ in C, 
+but in C++, we use class instead of that. The difference is by default, structure has public value 
+while class has private value which leads to be more secure. Since it has private value, we have to 
+access those private values with the function which is declared in the public part of the class, so 
+there are query functions, and setting the values functions, and setting safe empty state function, 
+and display function and so on. When we code function’s definition in the implementation file, I 
+had to code ‘Cargo::’, and ‘Train::’ to let complier know that where these functions are belong to so 
+that these functions are able to access private variables in the class. Furthermore, I had to use 
+‘cout.setf(ios::fixed)’ and ‘precision(2)’ to print only two decimal places of double type data. After I 
+used this, I had to unset fixed format using ‘unsetf’, also had to use ‘precision(6)’ to change back 
+to default.
