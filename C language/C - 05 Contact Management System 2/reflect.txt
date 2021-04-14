@@ -1,0 +1,44 @@
+Name: Yongtak Jun
+Email: yjun4@myseneca.ca
+Date: Apr/8/2020
+
+
+
+While I am doing this assignment, I have refined the ‘contactHelpers.c’ source code adding some 
+functions. Firstly, I refined ‘getTenDigitPhone’ function which gets the value of 10 Digit. It was really 
+useful function when I prompt the user for phone number. Also, I made ‘findContactIndex’ function 
+which I consider one of the key function of this assignment. It was really beneficial function. If there 
+is matching phone number among the contacts, it returns the matching index number, or if there 
+in not, it returns -1. Therefore, when I make addContact, updateContact, and deleteContact function, 
+it was really useful to find empty spot, or find the matching data. Also, I made displayContact 
+function, and when it comes to this function, the tricky part for me was I had to check if ‘middleInitial’ 
+contains the value or not, so if it has value I had to display that value. So for that, first I put the 
+condition, if (contact->name.middleInitial != '\0'), like this. But later I found just the 
+‘middleInitial’ itself is address as it is array’s name, so I realize I have to access the first element of 
+this array using ‘[0]’. So I could change the condition part like this, 
+if (contact->name.middleInitial[0] != '\0'). I had to keep this thing in my mind when I make 
+not only this function but also other functions as well. Lastly, I tried to make ‘sortContacts’ function 
+reviewing the course notes on Algorithms. I have used ‘selection sort’ for this function, and when I 
+use this algorithm and figure out how this works, it was interesting. Basically, in inner loop, it finds 
+the smallest number, and in outer loop, the smallest number is put first element, and then second 
+element, and third... Overall, doing this assignment, I feel like I am getting used to call and use the 
+various functions within another function for efficiency.
+
+As I mentioned before, I have considered the using ‘findContactIndex’ function as one of key point of 
+this assignment. It was really useful function, and I feel like I can reuse this function when I make 
+program later. When we deal with data put in the array, we can refine the data accessing each index 
+number. And simply using this function, we can easily figure out which element will be refined. If 
+we do not use this function, we will have to code looping every time to find the correct index 
+number. Furthermore, ‘getTenDigitPhone’ was really good match with ‘findContactIndex’ function. 
+To find the right index number using ‘findContactIndex’ function, we had to prompt the phone 
+number. And ‘getTenDigitPhone’ function prompts and gets the value of 10-digit safely so that we 
+could use ‘findContactIndex’ function properly. Also, this function was really useful when I get the 
+phone, home, or business number safely as well.
+
+Actually, I thought this week assignment will include ‘Text File’ part, and honestly, that made me 
+nervous as it looks not that easy. However, I thought if save/load functionality would be included 
+in this program, it would make our program much better because once we turn off the Visual Studio, 
+the data which we have modified or created will be gone. But using save/load functionality, we 
+could save our data safely, and load as well. Therefore, I thought save/load functionality is really 
+needed to our program, and if our program includes save/load functionality, this could be crucial 
+functionality of our program.

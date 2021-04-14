@@ -1,0 +1,36 @@
+//==============================================
+// Name:           Yongtak Jun
+// Email:          yjun4@myseneca.ca
+// Date:           Mar/13/2020
+//==============================================
+
+
+
+Doing this assignment, I have declared structure inside structure. And, I declared prototype in the
+ header file. Also, I have made function definition file to define the full function definition. And in 
+the main source code, I had to make variable of structure data type which contains another structure, 
+and I also had to initialize that variable into 0, so I have learned how to initialize the variable of 
+structure data type which contains another structure using a few pair of curly braces. Also, sending 
+its structure’s address to the function, I have learned how to access each member inside the structure 
+with arrow. If we could figure out how to access those members, the logic is basically same with 
+last one. Furthermore, when we print out the summary details using printf, I have learned how to 
+refer the members inside the structure which is contained by another structure using two dots(.).  
+And, actually the interesting thing for me was to call the header file into main source code, we have 
+to refer the header file like this: #include “contacts.h”, so I thought I also have to call the function 
+definition file as well. However, it was not needed to call the function definition file to use that in 
+the main source code. I think that is because in the header file, the function’s prototype is already 
+declared so that only calling the header file into the main source code is enough to use those 
+functions.
+
+Doing this assignment, if I did not make “Contact” structure which contains other three structure, I 
+would have had to declare three structures in the main source code instead of declaring only one 
+structure. Also, dealing with structures inside other structure, first, I have learned how to initialize the 
+variable of structure which contains another structures using many curly braces. Also, I could practice 
+how to access the members inside the structure which is contained by another structure using two 
+dots(.).
+
+We could make the pointer variable, and pass the copy of the address, and use those pointer 
+variables as arguments in the functions getName, getAddress, and getNumbers. However, we do 
+not need to make pointers to use each addresses as arguments in this case. It would just make 
+code complex, and would be waste of memory as well since we can just use its address itself as 
+an argument.
