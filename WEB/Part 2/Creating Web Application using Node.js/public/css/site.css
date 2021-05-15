@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+.navbar.navbar-default{
+    background-color: #75cfb8;
+    font-family: 'Reggae One', cursive;
+}
+
+.navbar-brand{
+    font-family: 'Potta One', cursive;
+}
+
+.table-responsive{
+    font-size: 1.3em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h2{
+    font-family: 'Ranchers', cursive;
+}
+
+.btn-success{
+    font-family: 'Fondamento', cursive;
+}
