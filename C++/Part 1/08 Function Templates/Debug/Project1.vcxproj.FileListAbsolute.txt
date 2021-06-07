@@ -1,0 +1,6 @@
+C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Workshops\WS09\Project1\Debug\Project1.exe
+C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Workshops\WS09\Project1\Debug\Project1.pdb
+C:\Users\korea\Desktop\C++ Language\Part 1\WS09\Project1\Debug\Project1.exe
+C:\Users\korea\Desktop\C++ Language\Part 1\WS09\Project1\Debug\Project1.pdb
+C:\Users\korea\Desktop\C++ Language\Part 1\Project1\Debug\Project1.exe
+C:\Users\korea\Desktop\C++ Language\Part 1\Project1\Debug\Project1.pdb

@@ -1,0 +1,4 @@
+D:\IPC-Project-master\IPC-Project-master\A1\MS4\Debug\A1MS4.exe
+D:\IPC-Project-master\IPC-Project-master\A1\MS4\Debug\A1MS4.pdb
+C:\Users\korea\Desktop\C language\C - 03 Contact Management System\Debug\A1MS4.exe
+C:\Users\korea\Desktop\C language\C - 03 Contact Management System\Debug\A1MS4.pdb

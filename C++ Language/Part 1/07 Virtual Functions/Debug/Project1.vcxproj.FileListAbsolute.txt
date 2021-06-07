@@ -1,4 +1,0 @@
-C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Workshops\WS08\Project1\Debug\Project1.exe
-C:\Users\korea\Desktop\Seneca\Seneca 2학기\OOP244\OOP-Workshops\WS08\Project1\Debug\Project1.pdb
-C:\Users\korea\Desktop\C++ Language\Part 1\07 Virtual Functions\Debug\Project1.exe
-C:\Users\korea\Desktop\C++ Language\Part 1\07 Virtual Functions\Debug\Project1.pdb
