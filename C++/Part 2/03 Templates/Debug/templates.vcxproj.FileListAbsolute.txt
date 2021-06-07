@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS03\templates\Debug\templates.exe
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS03\templates\Debug\templates.pdb
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS03\03 Templates\Debug\templates.exe
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS03\03 Templates\Debug\templates.pdb

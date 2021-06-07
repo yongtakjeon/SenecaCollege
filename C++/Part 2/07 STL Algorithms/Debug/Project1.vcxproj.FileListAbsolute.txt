@@ -1,0 +1,3 @@
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS07\Project1\Debug\Project1.exe
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS07\Project1\Debug\Project1.pdb
+C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS07\07 STL Algorithms\Debug\Project1.exe
