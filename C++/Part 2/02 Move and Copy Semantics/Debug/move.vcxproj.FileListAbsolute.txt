@@ -1,4 +1,0 @@
-C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS02\move\Debug\move.exe
-C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS02\move\Debug\move.pdb
-C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS02\02 Move and Copy Semantics\Debug\move.exe
-C:\Users\user\Desktop\Seneca\OOP345\Workshops\WS02\02 Move and Copy Semantics\Debug\move.pdb
