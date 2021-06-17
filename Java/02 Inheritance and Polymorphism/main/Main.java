@@ -1,14 +1,9 @@
 //Name: Yongtak Jun
-//Date: June/13/2021
+//Date: June/17/2021
 
 package main;
 
-import shapes.Shape;
-import shapes.Circle;
-import shapes.Square;
-import shapes.Rectangle;
-import shapes.Parallelogram;
-import shapes.Triangle;
+import shapes.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -200,9 +195,15 @@ public class Main {
 
 				// If you cannot build the geometric shapes with the given values
 				// (ex. zero or negative values for dimensions,
-				// wrong values for three sides of a triangle, etc.), an exception will be thrown.	
-				catch (Exception errMsg) {
-					System.out.println(errMsg.getMessage());
+				// wrong values for three sides of a triangle, etc.), a custom exception will be thrown.	
+				catch (CircleException errMsg) {
+					System.out.println("Invalid radius!");
+				}
+				catch (QuadrangleException errMsg) {
+					System.out.println("Invalid side!");
+				}
+				catch (TriangleException errMsg) {
+					System.out.println("Invalid sides(s)!");
 				}
 
 			}

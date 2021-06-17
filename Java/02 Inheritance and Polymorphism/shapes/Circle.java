@@ -9,9 +9,9 @@ public class Circle implements Shape {
 	private double radius;
 
 	//constructor
-	public Circle(double radius) throws Exception {
+	public Circle(double radius) throws CircleException {
 		if(radius <= 0)
-			throw new Exception("Invalid radius!");
+			throw new CircleException();
 		this.radius = radius;
 	}
 

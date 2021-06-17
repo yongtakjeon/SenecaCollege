@@ -5,7 +5,7 @@ package shapes;
 
 public class Parallelogram extends Rectangle {
 	//constructor
-	public Parallelogram(double width, double height) throws Exception {
+	public Parallelogram(double width, double height) throws QuadrangleException {
 		super(width, height);
 	}
 	

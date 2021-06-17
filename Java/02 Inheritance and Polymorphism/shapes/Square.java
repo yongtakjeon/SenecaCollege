@@ -7,9 +7,9 @@ public class Square implements Shape {
 	private double width;
 
 	//constructor
-	public Square(double width) throws Exception {
+	public Square(double width) throws QuadrangleException {
 		if(width <= 0)
-			throw new Exception("Invalid side!");
+			throw new QuadrangleException();
 		this.width = width;
 	}
 

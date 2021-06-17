@@ -7,10 +7,10 @@ public class Rectangle extends Square {
 	private double height;
 	
 	//constructor
-	public Rectangle(double width, double height) throws Exception {
+	public Rectangle(double width, double height) throws QuadrangleException {
 		super(width);
 		if(height <= 0)
-			throw new Exception("Invalid side!");
+			throw new QuadrangleException();
 		this.height = height;
 	}
 	

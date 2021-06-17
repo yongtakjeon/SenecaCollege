@@ -10,11 +10,11 @@ public class Triangle implements Shape {
 	private double side3;
 	
 	//constructor
-	public Triangle(double side1, double side2, double side3) throws Exception {
+	public Triangle(double side1, double side2, double side3) throws TriangleException {
 		
 		if(side1<=0 || side2<=0 || side3<=0 ||
 			side1 >= side2+side3 || side2 >= side1+side3 || side3 >= side1+side1)
-			throw new Exception("Invalid sides(s)!");
+			throw new TriangleException();
 		
 		this.side1 = side1;
 		this.side2 = side2;
