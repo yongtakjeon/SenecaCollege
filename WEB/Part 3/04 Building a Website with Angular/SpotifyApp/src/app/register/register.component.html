@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-content>
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+            <h2>Register</h2>
+            <mat-error *ngIf="warning"> {{warning}} </mat-error><br />
+            <mat-form-field class="full-width-input">
+                <input matInput placeholder="User Name" name="username" [(ngModel)]="registerUser.userName" required autofocus #name="ngModel">
+                <mat-error *ngIf="name.errors?.required">Please provide a valid user name</mat-error>
+            </mat-form-field><br />
+            <mat-form-field class="full-width-input">
+                <input matInput type="password" placeholder="Password" name="password" [(ngModel)]="registerUser.password" required #pass1="ngModel">
+                <mat-error *ngIf="pass1.errors?.required">Please provide a valid password</mat-error>
+            </mat-form-field><br />
+            <mat-form-field class="full-width-input">
+                <input matInput type="password" placeholder="Password" name="password2" [(ngModel)]="registerUser.password2" required #pass2="ngModel">
+                <mat-error *ngIf="pass2.errors?.required">Please provide a valid password</mat-error>
+            </mat-form-field><br />
+            <button mat-raised-button color="primary" type="submit" [disabled]="loading ? '' : null">
+                <mat-icon>account_box</mat-icon>
+                <span *ngIf="!loading">&nbsp;&nbsp;&nbsp;Register</span>
+                <span *ngIf="loading">&nbsp;&nbsp;&nbsp;Processing Request</span>
+            </button>
+        </form>
+    </mat-card-content>
+    <div class="success" *ngIf="success">Registration Successful. Proceed to<br /><br /> 
+        <a mat-raised-button color="accent" routerLink="/login">
+            <mat-icon >login</mat-icon>&nbsp;&nbsp;&nbsp;Login
+        </a> 
+    </div>
+</mat-card>

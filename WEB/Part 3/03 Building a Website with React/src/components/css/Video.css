@@ -1,0 +1,15 @@
+/* container element for a single video */
+.video-container {    
+    display:grid;
+    grid-template-columns: 400px auto;
+    grid-column-gap: 20px;
+    padding:20px;
+    margin:20px 0px;
+    background-color:#fff;
+    text-align:left;
+}
+
+/* video thumbnail */
+img.video-thumbnail {
+    max-width:400px;
+}

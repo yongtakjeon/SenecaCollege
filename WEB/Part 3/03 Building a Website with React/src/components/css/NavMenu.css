@@ -1,0 +1,21 @@
+/* -------------------------------------- */
+/* styling for the navigation bar         */
+/* -------------------------------------- */
+nav {
+    text-align:center;
+}
+/* logo */
+nav > img.logo {
+    width:200px;
+    margin:20px 0px;
+}
+nav > ul {
+    /* create spacing between the logo and the menu items */
+    margin-bottom:20px;
+}
+nav > ul > li {
+    /* remove bullets from lis, display them on 1 line, and add spacing between the menu items */
+    list-style-type:none;
+    display:inline;
+    margin:0px 10px;
+}

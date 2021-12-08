@@ -1,0 +1,33 @@
+.video-player-container {
+    max-width:800px;
+    margin:30px auto 20px auto;        
+}
+
+.video-player-container .title {
+    font-size:18px; 
+    color: #030303; 
+    margin:20px 0px;
+}
+.video-player-container .stats {    
+    display:flex; 
+    justify-content:space-between;  
+    margin:20px 0px; 
+    color:#606060; 
+    font-size:16px;      
+}
+.video-player-container .stats ul li:hover {
+    cursor:pointer;
+}
+.video-player-container .video-details {
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    border-top:1px solid #ccc;
+}
+.video-player-container .video-details .col-right {
+    justify-self:end; 
+    margin-top:15px;
+}
+.pressed {
+    color:blue;
+}
+
